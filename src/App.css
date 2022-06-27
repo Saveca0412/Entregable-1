@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Components */
+  
+  .container{
+    max-width: 576px;
+    margin: 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+  .card{
+    background: white;
+    box-shadow: 2px 2px 8px black;
+    padding: 15px;
+    margin: 0 auto;
+    width: 440px;
+    margin-top: 25%;
   }
-}
+ 
+  .quote{
+    width: 16.666%;
+  }
+ .quotation{
+    font-size: 120px;
+    font-family: sans-serif;
+    line-height: 97px;
+
+ }
+ .text{
+    display: flex;
+    height: 60px;
+ }
+  .author{
+    text-align: end;
+    font-style: italic;
+    margin: 20px 0 6px 0;
+  }
+  button{
+    padding: 8px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    outline: 0;
+    box-shadow: 2px 2px 4px gray;
+  }
+  .imgbutton{
+    font-size: large;
+  }
+  ul{
+    display: flex;
+    flex-flow: row-reverse
+  }
+
+  li{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 35px;
+  }
+  
